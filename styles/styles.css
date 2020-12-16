@@ -264,13 +264,25 @@ img {
   display: block;
 }
 
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer p {
+  text-align: center;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 17.2rem;
+  font-size: 13rem;
 }
 
 h2 {
@@ -279,14 +291,18 @@ h2 {
 
 .firstName {
   font-weight: 500;
-  font-size: 1.7rem;
 }
 
+header ul {
+  font-size: 2.5rem;
+}
+
+.firstName,
 .job {
-  font-size: 3.3rem;
+  font-size: 3rem;
 }
 
-header ol,
+header ul,
 .job {
   font-weight: 300;
 }
@@ -296,12 +312,12 @@ h2 {
   color: white;
 }
 
-header a {
-  color: black;
+header nav {
+  background-color: white;
 }
 
-nav {
-  background-color: white;
+header a {
+  color: black;
 }
 
 header {
@@ -316,7 +332,10 @@ h1 {
   margin: 0;
 }
 
-ol {
-  list-style-type: decimal-leading-zero;
-  list-style-position: inside;
+header nav {
+  width: 65rem;
+  padding: 4rem 0;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
 }

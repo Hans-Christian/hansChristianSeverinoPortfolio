@@ -8,7 +8,7 @@ body{
 
 h1{
     font-weight: 700;
-    font-size: 17.2rem;
+    font-size: 13rem;
 }
 
 h2{
@@ -17,14 +17,18 @@ h2{
 
 .firstName{
     font-weight: 500;
-    font-size: 1.7rem;
 }
 
+header ul{
+    font-size: 2.5rem;
+}
+
+.firstName,
 .job{
-    font-size: 3.3rem;
+    font-size: 3rem;
 }
 
-header ol,
+header ul,
 .job{
     font-weight: 300;
 }
