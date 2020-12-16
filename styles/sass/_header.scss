@@ -1,7 +1,16 @@
 header{
-    background-image: url('../sources/headerImage.jpg');
-    background-size: contain;
+    background-image: url('../sources/headerImage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-repeat:no-repeat;
-    min-height:100vh;
+    min-height: 100vh;
+}
+
+h1{
+    margin: 0;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
 }

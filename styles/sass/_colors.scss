@@ -1,0 +1,17 @@
+$primary: rgb(21,123,104);
+$grey: rgb(149,149,149);
+$white: rgb(255,255,255);
+$black: rgb(0,0,0);
+
+h1,
+h2{
+    color: $white;
+}
+
+header a{
+    color: $black;
+}
+
+nav{
+    background-color: $white;
+}

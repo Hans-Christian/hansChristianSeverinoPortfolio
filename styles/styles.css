@@ -264,10 +264,59 @@ img {
   display: block;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 17.2rem;
+}
+
+h2 {
+  line-height: 25px;
+}
+
+.firstName {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.job {
+  font-size: 3.3rem;
+}
+
+header ol,
+.job {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+header a {
+  color: black;
+}
+
+nav {
+  background-color: white;
+}
+
 header {
-  background-image: url("../sources/headerImage.jpg");
-  background-size: contain;
-  background-position: center;
+  background-image: url("../sources/headerImage2.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
 }

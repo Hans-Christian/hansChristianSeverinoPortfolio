@@ -1,0 +1,30 @@
+// font-family: 'Poppins', sans-serif;
+
+// font-family: 'Roboto Slab', serif;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 17.2rem;
+}
+
+h2{
+    line-height: 25px;
+}
+
+.firstName{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.job{
+    font-size: 3.3rem;
+}
+
+header ol,
+.job{
+    font-weight: 300;
+}
