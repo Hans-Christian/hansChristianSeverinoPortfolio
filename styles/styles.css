@@ -265,7 +265,9 @@ img {
 }
 
 header {
-  background-image: url("sources/headerImage.jpg");
-  background-size: cover;
+  background-image: url("../sources/headerImage.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
