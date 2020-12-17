@@ -6,8 +6,26 @@ header{
     min-height: 100vh;
 }
 
+.headers{
+    width: 69.8rem;
+    padding: 2.5rem 3rem;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.firstName{
+    text-decoration: overline;
+}
+
 h1{
     margin: 0;
+}
+
+.job{
+    text-align: right;
+    width: 63.5rem;
+    text-decoration: underline;
 }
 
 header nav{
