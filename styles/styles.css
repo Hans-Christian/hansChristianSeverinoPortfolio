@@ -264,10 +264,14 @@ img {
   display: block;
 }
 
-header ul {
+header ul,
+.aboutMe div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+header ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -281,8 +285,8 @@ body {
 }
 
 h1 {
-  font-weight: 700;
   font-size: 13rem;
+  font-weight: 700;
 }
 
 .firstName {
@@ -303,6 +307,11 @@ header ul,
   font-weight: 300;
 }
 
+h3 {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
 h1,
 h2 {
   color: white;
@@ -321,7 +330,7 @@ header a {
 }
 
 header {
-  background-image: url("../sources/headerImage2.jpg");
+  background-image: url("../sources/headerImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -331,7 +340,6 @@ header {
 .headers {
   width: 69.8rem;
   padding: 2.5rem 3rem;
-  position: absolute;
   top: 20%;
   left: 15%;
 }
@@ -353,7 +361,16 @@ h1 {
 header nav {
   width: 65rem;
   padding: 4rem 0;
-  position: absolute;
   right: 0;
   bottom: 30px;
+}
+
+.headers,
+header nav {
+  position: absolute;
+}
+
+.aboutMe img,
+.aboutMe p {
+  width: 50%;
 }

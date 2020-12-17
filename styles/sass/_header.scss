@@ -1,5 +1,5 @@
 header{
-    background-image: url('../sources/headerImage2.jpg');
+    background-image: url('../sources/headerImage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,7 +9,6 @@ header{
 .headers{
     width: 69.8rem;
     padding: 2.5rem 3rem;
-    position: absolute;
     top: 20%;
     left: 15%;
 }
@@ -31,7 +30,11 @@ h1{
 header nav{
     width: 65rem;
     padding: 4rem 0;
-    position: absolute;
     right: 0;
     bottom: 30px;
+}
+
+.headers,
+header nav{
+    position: absolute;
 }
