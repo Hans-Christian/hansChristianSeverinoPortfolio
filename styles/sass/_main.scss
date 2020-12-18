@@ -1,4 +1,13 @@
-.aboutMe img,
-.aboutMe p{
-    width: 50%;
+.aboutMe,
+.projects,
+.skills,
+.contact{
+    margin-top: 6rem;
 }
+
+.aboutMe img{
+    width: 40rem;
+    height: 40rem;
+    margin-right: 5rem;
+}
+
