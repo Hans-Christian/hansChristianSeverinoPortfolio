@@ -281,13 +281,15 @@ footer p {
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
 }
 
 h1,
 h2,
 h3,
-.headerNav {
+.headerNav,
+footer {
   font-family: 'Poppins', sans-serif;
 }
 
