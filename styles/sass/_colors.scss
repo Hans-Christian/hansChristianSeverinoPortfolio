@@ -3,8 +3,12 @@ $grey: rgb(149,149,149);
 $white: rgb(255,255,255);
 $black: rgb(0,0,0);
 
-h1,
-h2{
+main{
+    background-color: $primary;
+}
+
+body,
+footer a{
     color: $white;
 }
 
@@ -18,4 +22,17 @@ header nav{
 
 header a{
     color: $black;
+}
+
+.aboutMe img{
+    border: 3.5px solid $black;
+    box-shadow: 1.5rem 1.5rem $white;
+}
+
+.icons{
+    border: 5px solid $black;
+}
+
+footer{
+    background-color: $black;
 }
