@@ -1,4 +1,4 @@
-$primary: rgb(21,123,104);
+$primary: rgb(0,128,128);
 $grey: rgb(149,149,149);
 $white: rgb(255,255,255);
 $black: rgb(0,0,0);
@@ -29,8 +29,9 @@ header a{
     box-shadow: 1.5rem 1.5rem $white;
 }
 
-.icons{
-    border: 5px solid $black;
+.listOfSkills{
+    border: 3.5px solid $white;
+    background-color: rgba(0,0,0,0.7);
 }
 
 footer{

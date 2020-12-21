@@ -1,8 +1,7 @@
 *{padding:0; margin:0;}html{font-size:62.5%;}.wrapper{max-width:950px; width:92%; margin:0 auto;}ul{list-style:none;}a{text-decoration:none;}img{width:100%; height:auto; display:block;}
 
 header ul,
-.aboutMe div:first-child,
-.icons{
+.aboutMe div:first-child{
     display: flex;
 }
 
@@ -10,6 +9,7 @@ header ul{
     justify-content: space-around;
 }
 
+.skills,
 footer p{
     text-align: center;
 }
