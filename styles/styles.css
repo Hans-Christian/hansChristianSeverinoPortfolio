@@ -359,6 +359,11 @@ footer {
   background-color: black;
 }
 
+.project {
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
 header {
   background-image: url("../sources/headerImage.jpg");
   background-repeat: no-repeat;
