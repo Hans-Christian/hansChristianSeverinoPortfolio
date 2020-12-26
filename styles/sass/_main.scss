@@ -15,8 +15,25 @@ main{
     width: 92%;
 }
 
-h3{
+h3:not(.skills){
     margin-bottom: 1rem;
+}
+
+.aboutMe h3{
+    width: 21.9rem;
+}
+
+.projects h3{
+    width: 18.5rem;
+}
+
+.skills h3{
+    width: 11.8rem;
+    margin: 0 auto 1rem;
+}
+
+.contact h3{
+    width: 18.8rem;
 }
 
 h4{

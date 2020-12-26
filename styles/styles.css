@@ -277,7 +277,8 @@ header ul {
       justify-content: space-around;
 }
 
-.skills,
+h3,
+.listOfSkills,
 footer p {
   text-align: center;
 }
@@ -333,10 +334,6 @@ h4 {
   font-size: 3rem;
 }
 
-body {
-  background-color: teal;
-}
-
 main {
   background-color: teal;
   -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.25);
@@ -348,7 +345,8 @@ footer a {
   color: white;
 }
 
-.headers {
+.headers,
+h3 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -436,8 +434,25 @@ main {
   width: 92%;
 }
 
-h3 {
+h3:not(.skills) {
   margin-bottom: 1rem;
+}
+
+.aboutMe h3 {
+  width: 21.9rem;
+}
+
+.projects h3 {
+  width: 18.5rem;
+}
+
+.skills h3 {
+  width: 11.8rem;
+  margin: 0 auto 1rem;
+}
+
+.contact h3 {
+  width: 18.8rem;
 }
 
 h4 {
