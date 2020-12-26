@@ -10,10 +10,17 @@
 
 main{
     padding: 0 4rem;
+    margin: 5rem auto;
+    max-width: 950px;
+    width: 92%;
 }
 
 h3{
     margin-bottom: 1rem;
+}
+
+h4{
+    margin-bottom: 0.5rem;
 }
 
 .aboutMe img{
@@ -22,9 +29,43 @@ h3{
     margin-right: 4rem;
 }
 
+.firstProject,
+.secondProject{
+    margin-bottom: 5rem;
+}
+
+.firstProject .image,
+.thirdProject .image{
+    margin-left: 2rem;
+}
+
+.secondProject .image{
+    margin-right: 2rem;
+}
+
+.secondProject{
+    flex-direction: row-reverse;
+}
+
+.secondProject .description{
+    text-align: right;
+}
+
+.description{
+    width: 45%;
+}
+
+.image{
+    width: calc(55% - 2rem);
+}
+
+.project img{
+    border-radius: 10px;
+}
+
 .listOfSkills{
     border-radius: 15px;
-    width: 60rem;
+    width: 60%;
     margin: 0 auto;
 }
 

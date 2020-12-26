@@ -265,7 +265,8 @@ img {
 }
 
 header ul,
-.aboutMe div:first-child {
+.aboutMe div:first-child,
+.project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,6 +290,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 .headerNav,
 footer {
   font-family: 'Poppins', sans-serif;
@@ -318,13 +320,27 @@ header ul,
   font-weight: 300;
 }
 
+h3,
+h4 {
+  font-weight: 600;
+}
+
 h3 {
   font-size: 4.5rem;
-  font-weight: 600;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+body {
+  background-color: teal;
 }
 
 main {
   background-color: teal;
+  -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 body,
@@ -345,23 +361,21 @@ header a {
 }
 
 .aboutMe img {
-  border: 3.5px solid black;
   -webkit-box-shadow: 1.5rem 1.5rem white;
           box-shadow: 1.5rem 1.5rem white;
 }
 
+.project img {
+  border: 8px solid black;
+}
+
 .listOfSkills {
-  border: 3.5px solid white;
+  border: 8px solid #959595;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 footer {
   background-color: black;
-}
-
-.project {
-  border: 10px solid black;
-  border-radius: 10px;
 }
 
 header {
@@ -417,10 +431,17 @@ header nav {
 
 main {
   padding: 0 4rem;
+  margin: 5rem auto;
+  max-width: 950px;
+  width: 92%;
 }
 
 h3 {
   margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
 }
 
 .aboutMe img {
@@ -429,9 +450,46 @@ h3 {
   margin-right: 4rem;
 }
 
+.firstProject,
+.secondProject {
+  margin-bottom: 5rem;
+}
+
+.firstProject .image,
+.thirdProject .image {
+  margin-left: 2rem;
+}
+
+.secondProject .image {
+  margin-right: 2rem;
+}
+
+.secondProject {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.secondProject .description {
+  text-align: right;
+}
+
+.description {
+  width: 45%;
+}
+
+.image {
+  width: calc(55% - 2rem);
+}
+
+.project img {
+  border-radius: 10px;
+}
+
 .listOfSkills {
   border-radius: 15px;
-  width: 60rem;
+  width: 60%;
   margin: 0 auto;
 }
 
