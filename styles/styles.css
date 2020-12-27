@@ -265,7 +265,7 @@ img {
 }
 
 header ul,
-.aboutMe div:first-child,
+.aboutMe,
 .project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,34 +434,33 @@ main {
   width: 92%;
 }
 
-h3:not(.skills) {
+h3 {
   margin-bottom: 1rem;
 }
 
 .aboutMe h3 {
-  width: 21.9rem;
+  width: 23rem;
 }
 
 .projects h3 {
-  width: 18.5rem;
+  height: 5.7rem;
 }
 
 .skills h3 {
-  width: 11.8rem;
+  width: 12.5rem;
   margin: 0 auto 1rem;
 }
 
+.projects h3,
 .contact h3 {
-  width: 18.8rem;
+  width: 19.5rem;
 }
 
 h4 {
   margin-bottom: 0.5rem;
 }
 
-.aboutMe img {
-  width: 40rem;
-  height: 40rem;
+.aboutMe div:first-child {
   margin-right: 4rem;
 }
 
@@ -491,11 +490,7 @@ h4 {
 }
 
 .description {
-  width: 45%;
-}
-
-.image {
-  width: calc(55% - 2rem);
+  width: 150%;
 }
 
 .project img {
