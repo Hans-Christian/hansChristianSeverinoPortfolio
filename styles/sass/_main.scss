@@ -1,7 +1,7 @@
 .projects,
 .skills,
 .contact{
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 .aboutMe{
@@ -41,7 +41,8 @@ h4{
     margin-bottom: 0.5rem;
 }
 
-.aboutMe div:first-child{
+.aboutMe div:first-child,
+.contact div:first-child{
     margin-right: 4rem;
 }
 
@@ -92,4 +93,8 @@ h4{
 
 .listOfSkills li{
     margin: 1rem 0;
+}
+
+.contact{
+    padding-bottom: 6rem;
 }
