@@ -30,7 +30,7 @@ header a{
     box-shadow: 1.5rem 1.5rem $white;
 }
 
-.project img{
+.project img:not(.jQuery, .firebase){
     border: 8px solid $black;
 }
 

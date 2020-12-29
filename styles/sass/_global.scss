@@ -2,11 +2,13 @@
 
 header ul,
 .aboutMe,
-.project{
+.project,
+.icons{
     display: flex;
 }
 
-header ul{
+header ul,
+.icons{
     justify-content: space-around;
 }
 
