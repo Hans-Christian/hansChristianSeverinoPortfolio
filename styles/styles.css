@@ -419,10 +419,14 @@ h1 {
 }
 
 header nav {
-  width: 65rem;
+  width: 64.5rem;
   padding: 4rem 0;
   right: 0;
   bottom: 30px;
+}
+
+header a {
+  padding: 3.7rem 3.4rem;
 }
 
 .headers,
@@ -430,13 +434,10 @@ header nav {
   position: absolute;
 }
 
+.aboutMe,
 .projects,
-.skills,
-.contact {
-  margin-top: 10rem;
-}
-
-.aboutMe {
+.skills {
+  margin-bottom: 4rem;
   padding-top: 6rem;
 }
 
@@ -531,7 +532,7 @@ h4 {
 }
 
 .contact {
-  padding-bottom: 6rem;
+  padding: 6rem 0;
 }
 
 .contact div:last-child {
@@ -539,7 +540,7 @@ h4 {
 }
 
 .contact li {
-  padding: 0 0 2rem 0;
+  padding-bottom: 2rem;
 }
 
 .info .fas,
@@ -549,4 +550,26 @@ h4 {
 
 footer p {
   padding: 1.5rem 0;
+}
+
+footer a {
+  padding: 1.21rem 0;
+}
+
+.headerNav a:hover,
+.headerNav a:focus {
+  background-color: black;
+  color: white;
+}
+
+.info a:hover,
+.info a:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 5px white;
+}
+
+footer a:hover,
+footer a:focus {
+  background-color: white;
+  color: black;
 }
