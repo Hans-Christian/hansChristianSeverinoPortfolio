@@ -48,7 +48,7 @@ h4{
 
 .firstProject,
 .secondProject{
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .firstProject .image,
@@ -73,16 +73,16 @@ h4{
     width: 3rem;
 }
 
+.image img{
+    border-radius: 10px;
+}
+
 .description{
     width: 150%;
 }
 
 .description p{
     margin-bottom: 1.2rem;
-}
-
-.project img{
-    border-radius: 10px;
 }
 
 .listOfSkills{
@@ -97,4 +97,17 @@ h4{
 
 .contact{
     padding-bottom: 6rem;
+}
+
+.contact div:last-child{
+    min-width: 55%;
+}
+
+.contact li{
+    padding: 0 0 2rem 0;
+}
+
+.info .fas,
+.info .fab{
+    padding-left: 0.7rem;
 }

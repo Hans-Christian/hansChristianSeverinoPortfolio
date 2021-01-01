@@ -26,12 +26,16 @@ h1{
 }
 
 header ul,
-.listOfSkills{
+.listOfSkills,
+.contact ul{
     font-size: 2.5rem;
 }
 
 .firstName,
-.job{
+.job,
+h4,
+.fab,
+.info .fas{
     font-size: 3rem;
 }
 
@@ -48,10 +52,3 @@ h4{
 h3{
     font-size: 4.5rem;
 }
-
-h4,
-.fab{
-    font-size: 3rem;
-}
-
-
