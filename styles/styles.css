@@ -425,10 +425,6 @@ header nav {
   bottom: 30px;
 }
 
-header a {
-  padding: 3.7rem 3.4rem;
-}
-
 .headers,
 header nav {
   position: absolute;
@@ -553,13 +549,21 @@ footer p {
 }
 
 footer a {
-  padding: 1.21rem 0;
+  padding: 1.22rem 0;
 }
 
-.headerNav a:hover,
-.headerNav a:focus {
+.headerNav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.2rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background-color: black;
-  color: white;
+}
+
+.headerNav a:hover::after {
+  width: 100%;
 }
 
 .info a:hover,
@@ -572,4 +576,41 @@ footer a:hover,
 footer a:focus {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 954px) {
+  .aboutMe div:last-child {
+    margin-top: 4rem;
+  }
+  .projects h3 {
+    margin: 0 auto 1rem;
+  }
+  .aboutMe,
+  .projects,
+  .skills {
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+  }
+  .aboutMe,
+  .project {
+    display: block;
+  }
+  .firstProject,
+  .secondProject {
+    margin-bottom: 5rem;
+  }
+  .description {
+    width: 80%;
+    margin: 0 auto 2rem;
+  }
+  .icons,
+  .firstProject .image,
+  .secondProject .image,
+  .thirdProject .image {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .contact {
+    padding: 4rem 0;
+  }
 }

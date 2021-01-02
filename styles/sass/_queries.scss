@@ -1,0 +1,44 @@
+@media (max-width: 954px){
+
+    .aboutMe div:last-child{
+        margin-top: 4rem;
+    }
+
+    .projects h3{
+        margin: 0 auto 1rem;
+    }
+
+    .aboutMe,
+    .projects,
+    .skills{
+        margin-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+    .aboutMe,
+    .project{
+        display: block;
+    }
+
+    .firstProject,
+    .secondProject{
+        margin-bottom: 5rem;
+    }
+
+    .description{
+        width: 80%;
+        margin: 0 auto 2rem;
+    }
+
+    .icons,
+    .firstProject .image,
+    .secondProject .image,
+    .thirdProject .image{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .contact {
+        padding: 4rem 0;
+    }
+}

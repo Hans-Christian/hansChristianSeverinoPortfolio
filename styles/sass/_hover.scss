@@ -1,7 +1,14 @@
-.headerNav a:hover,
-.headerNav a:focus{
+.headerNav a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.2rem;
+    transition: 0.3s;
     background-color: $black;
-    color: $white;
+}
+
+.headerNav a:hover::after{
+    width: 100%;
 }
 
 .info a:hover,
