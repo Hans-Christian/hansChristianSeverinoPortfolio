@@ -1,3 +1,9 @@
+// .navLinks a:hover,
+// .navLinks a:focus-within{
+//     color:saddlebrown;
+//     border-bottom:3px solid saddlebrown;
+// }
+
 .headerNav a::after{
     content: '';
     display: block;

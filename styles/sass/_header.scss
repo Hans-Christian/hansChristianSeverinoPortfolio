@@ -38,3 +38,21 @@ header nav{
 header nav{
     position: absolute;
 }
+
+.burgerBuns{
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    right: 7%;
+    top: 86.1%;
+}
+
+.patty{
+    width: 3.5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.patty2{
+    margin: 0.7rem 0;
+}

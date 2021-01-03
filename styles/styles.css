@@ -366,6 +366,10 @@ header a {
   color: black;
 }
 
+.patty {
+  background-color: black;
+}
+
 .aboutMe img {
   -webkit-box-shadow: 1.5rem 1.5rem white;
           box-shadow: 1.5rem 1.5rem white;
@@ -428,6 +432,24 @@ header nav {
 .headers,
 header nav {
   position: absolute;
+}
+
+.burgerBuns {
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  right: 7%;
+  top: 86.1%;
+}
+
+.patty {
+  width: 3.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.patty2 {
+  margin: 0.7rem 0;
 }
 
 .aboutMe,
@@ -633,5 +655,78 @@ footer a:focus {
   }
   .contact div:last-child {
     text-align: center;
+  }
+}
+
+@media (max-width: 838px) {
+  .firstName,
+  .job {
+    font-size: 2.8rem;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  .job {
+    width: 39.4rem;
+  }
+  .headers {
+    width: 45.5rem;
+    top: 20%;
+    left: 7%;
+  }
+  .header ul {
+    font-size: 2.3rem;
+  }
+  header nav {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 534px) {
+  .firstProject .image,
+  .secondProject .image,
+  .thirdProject .image {
+    width: 100%;
+  }
+  .aboutMe div:last-child,
+  .description,
+  .icons {
+    width: 90%;
+  }
+  .aboutMe img,
+  .contact img {
+    width: 75%;
+  }
+  .listOfSkills {
+    width: 85%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  header nav {
+    width: 9rem;
+  }
+  header ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    width: 25rem;
+  }
+  .burgerBuns {
+    display: block;
+  }
+  .navActive {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
