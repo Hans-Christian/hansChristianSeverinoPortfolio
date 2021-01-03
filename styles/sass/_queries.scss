@@ -1,10 +1,21 @@
 @media (max-width: 954px){
 
-    .aboutMe div:last-child{
-        margin-top: 4rem;
+    .aboutMe div:first-child,
+    .contact div:first-child{
+        margin-right: 0;
     }
 
-    .projects h3{
+    .aboutMe img,
+    .contact img{
+        width: 50%;
+    }
+
+    .aboutMe div:last-child,
+    .contact div:last-child{
+        margin: 4rem auto 0;
+    }
+
+    h3{
         margin: 0 auto 1rem;
     }
 
@@ -16,7 +27,8 @@
     }
 
     .aboutMe,
-    .project{
+    .project,
+    .contact{
         display: block;
     }
 
@@ -26,19 +38,36 @@
     }
 
     .description{
-        width: 80%;
         margin: 0 auto 2rem;
     }
 
+    .aboutMe img,
+    .icons,
+    .firstProject .image,
+    .secondProject .image,
+    .thirdProject .image,
+    .contact img{
+        margin: 0 auto;
+    }
+
+    .aboutMe div:last-child,
+    .description,
     .icons,
     .firstProject .image,
     .secondProject .image,
     .thirdProject .image{
         width: 85%;
-        margin: 0 auto;
     }
 
-    .contact {
+    .contact{
         padding: 4rem 0;
     }
+
+    .contact div:last-child{
+        text-align: center;
+    }
+}
+
+@media (max-width: 838px){
+    
 }
