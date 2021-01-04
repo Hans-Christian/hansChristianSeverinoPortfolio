@@ -1,6 +1,6 @@
 *{padding:0; margin:0;}html{font-size:62.5%;}.wrapper{max-width:950px; width:92%; margin:0 auto;}ul{list-style:none;}a{text-decoration:none;}img{width:100%; height:auto; display:block;}
 
-header ul,
+.headerLinks,
 .aboutMe,
 .project,
 .icons,
@@ -8,11 +8,12 @@ header ul,
     display: flex;
 }
 
-header ul,
+.headerLinks,
 .icons{
     justify-content: space-around;
 }
 
+.menu,
 h3,
 .listOfSkills,
 footer p{

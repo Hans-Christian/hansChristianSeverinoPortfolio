@@ -264,7 +264,7 @@ img {
   display: block;
 }
 
-header ul,
+.headerLinks,
 .aboutMe,
 .project,
 .icons,
@@ -274,12 +274,13 @@ header ul,
   display: flex;
 }
 
-header ul,
+.headerLinks,
 .icons {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
+.menu,
 h3,
 .listOfSkills,
 footer p {
@@ -309,7 +310,7 @@ h1 {
   font-weight: 500;
 }
 
-header ul,
+.headerLinks,
 .listOfSkills,
 .contact ul {
   font-size: 2.5rem;
@@ -323,7 +324,7 @@ h4,
   font-size: 3rem;
 }
 
-header ul,
+.headerLinks,
 .job {
   font-weight: 300;
 }
@@ -354,20 +355,17 @@ footer a {
 }
 
 .headers,
+.menuClick,
 h3 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-header nav {
+.headerLinks {
   background-color: white;
 }
 
 header a {
   color: black;
-}
-
-.patty {
-  background-color: black;
 }
 
 .aboutMe img {
@@ -422,34 +420,26 @@ h1 {
   text-decoration: underline;
 }
 
-header nav {
+.headers,
+.headerLinks,
+.menu {
+  position: absolute;
+}
+
+.headerLinks {
   width: 64.5rem;
   padding: 4rem 0;
   right: 0;
   bottom: 30px;
 }
 
-.headers,
-header nav {
-  position: absolute;
-}
-
-.burgerBuns {
-  position: absolute;
+.menu {
   cursor: pointer;
   display: none;
-  right: 7%;
-  top: 86.1%;
 }
 
-.patty {
-  width: 3.5rem;
-  height: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.patty2 {
-  margin: 0.7rem 0;
+.menuClick {
+  padding: 1rem 0;
 }
 
 .aboutMe,
@@ -674,11 +664,9 @@ footer a:focus {
     top: 20%;
     left: 7%;
   }
-  .header ul {
-    font-size: 2.3rem;
-  }
-  header nav {
+  .headerLinks {
     width: 50rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -703,10 +691,15 @@ footer a:focus {
   body {
     overflow-x: hidden;
   }
-  header nav {
-    width: 9rem;
+  .headerLinks {
+    height: 28.1vh;
+    padding: 2rem 0;
   }
-  header ul {
+  .headerLinks,
+  .menu {
+    width: 20rem;
+  }
+  .headerLinks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -720,10 +713,11 @@ footer a:focus {
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
-    width: 25rem;
   }
-  .burgerBuns {
+  .menu {
     display: block;
+    right: 0;
+    top: 61.8%;
   }
   .navActive {
     -webkit-transform: translateX(0%);

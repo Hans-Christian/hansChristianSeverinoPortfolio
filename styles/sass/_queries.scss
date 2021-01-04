@@ -89,12 +89,9 @@
         left: 7%;
     }
 
-    .header ul{
-        font-size: 2.3rem;
-    }
-
-    header nav{
+    .headerLinks{
         width: 50rem;
+        font-size: 2.3rem;
     }
 }
 
@@ -125,20 +122,27 @@
         overflow-x: hidden;
     }
 
-    header nav{
-        width: 9rem;
+    .headerLinks{
+        height: 28.1vh;
+        padding: 2rem 0;
     }
 
-    header ul{
+    .headerLinks,
+    .menu{
+        width: 20rem;
+    }
+
+    .headerLinks{
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.5s;
-        width: 25rem;
     }
 
-    .burgerBuns{
+    .menu{
         display: block;
+        right: 0;
+        top: 61.8%;
     }
 
     .navActive{
