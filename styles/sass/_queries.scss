@@ -122,6 +122,10 @@
         overflow-x: hidden;
     }
 
+    .headers{
+        left: 0;
+    }
+
     .headerLinks{
         height: 28.1vh;
         padding: 2rem 0;
@@ -147,5 +151,53 @@
 
     .navActive{
         transform: translateX(0%);
+    }
+}
+
+@media (max-width: 472px){
+
+    .firstName,
+    .job,
+    .headerLinks,
+    .listOfSkills,
+    .contact ul,
+    .fab,
+    .info .fas{
+        font-size: 2.3rem;
+    }
+
+    .jQuery,
+    .firebase{
+        width: 2.3rem;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    .job{
+        width: 27rem;
+    }
+
+    .headers {
+        width: 33.2rem;
+    }
+
+    .aboutMe div:last-child,
+    .description,
+    .icons,
+    .listOfSkills{
+        width: 100%;
+    }
+}
+
+@media (max-width: 452px){
+
+    html{
+        font-size: 59%;
+    }
+
+    .headerLinks{
+        height: 28.4vh;
     }
 }
