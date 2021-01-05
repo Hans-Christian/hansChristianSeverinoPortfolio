@@ -312,7 +312,7 @@ h1 {
 
 .headerLinks,
 .listOfSkills,
-.contact ul {
+.info {
   font-size: 2.5rem;
 }
 
@@ -320,7 +320,7 @@ h1 {
 .job,
 h4,
 .fab,
-.info .fas {
+.fas {
   font-size: 3rem;
 }
 
@@ -404,6 +404,7 @@ header {
   padding: 2.5rem 3rem;
   top: 20%;
   left: 15%;
+  margin-bottom: 12rem;
 }
 
 .firstName {
@@ -591,13 +592,13 @@ footer a:focus {
 }
 
 @media (max-width: 954px) {
-  .aboutMe div:first-child,
-  .contact div:first-child {
-    margin-right: 0;
-  }
   .aboutMe img,
   .contact img {
     width: 50%;
+  }
+  .aboutMe div:first-child,
+  .contact div:first-child {
+    margin-right: 0;
   }
   .aboutMe div:last-child,
   .contact div:last-child {
@@ -671,22 +672,29 @@ footer a:focus {
 }
 
 @media (max-width: 534px) {
-  .firstProject .image,
-  .secondProject .image,
-  .thirdProject .image {
-    width: 100%;
-  }
   .aboutMe div:last-child,
   .description,
-  .icons {
-    width: 90%;
+  .icons,
+  .firstProject .image,
+  .secondProject .image,
+  .thirdProject .image,
+  .listOfSkills {
+    width: 100%;
   }
   .aboutMe img,
   .contact img {
     width: 75%;
   }
-  .listOfSkills {
-    width: 85%;
+  .info {
+    font-size: 2rem;
+  }
+  .fab,
+  .fas {
+    font-size: 2.5rem;
+  }
+  .jQuery,
+  .firebase {
+    width: 2.5rem;
   }
   body {
     overflow-x: hidden;
@@ -694,9 +702,8 @@ footer a:focus {
   .headers {
     left: 0;
   }
-  .headerLinks {
-    height: 28.1vh;
-    padding: 2rem 0;
+  .headerLinks li {
+    padding: 0.25rem 0;
   }
   .headerLinks,
   .menu {
@@ -718,9 +725,10 @@ footer a:focus {
     transition: transform 0.5s, -webkit-transform 0.5s;
   }
   .menu {
+    font-size: 2.3rem;
     display: block;
     right: 0;
-    top: 61.8%;
+    bottom: 244px;
   }
   .navActive {
     -webkit-transform: translateX(0%);
@@ -731,16 +739,8 @@ footer a:focus {
 @media (max-width: 472px) {
   .firstName,
   .job,
-  .headerLinks,
-  .listOfSkills,
-  .contact ul,
-  .fab,
-  .info .fas {
+  .listOfSkills {
     font-size: 2.3rem;
-  }
-  .jQuery,
-  .firebase {
-    width: 2.3rem;
   }
   h1 {
     font-size: 5rem;
@@ -751,19 +751,13 @@ footer a:focus {
   .headers {
     width: 33.2rem;
   }
-  .aboutMe div:last-child,
-  .description,
-  .icons,
-  .listOfSkills {
-    width: 100%;
-  }
 }
 
-@media (max-width: 452px) {
+@media (max-width: 410px) {
   html {
-    font-size: 59%;
+    font-size: 56%;
   }
   .headerLinks {
-    height: 28.4vh;
+    bottom: 52.1px;
   }
 }
