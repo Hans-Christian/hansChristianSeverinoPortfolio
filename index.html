@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HC Portfolio</title>
     <script src="https://kit.fontawesome.com/06ce480961.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
 </head>
 <body>
     <section class="landingPage">
         <header>
-            <div class="headers wrapper">
+        <div class="wrapper">
+            <div class="headers">
                 <h2 class="firstName">HANS CHRISTIAN</h2>
                 <h1>SEVERINO</h1>
                 <h2 class="job">A Front-End Developer</h2>
             </div>
 
-            <div class="headerNav wrapper">
+            <div class="headerNav">
+                <div class="menu">
+                    <p class="menuClick">Click for Menu</p>
+                </div>
+
                 <nav>
                     <ul class="headerLinks">
                         <li>
@@ -34,11 +44,8 @@
                         </li>
                     </ul>
                 </nav>
-
-                <div class="menu">
-                    <p class="menuClick">Click for Menu</p>
-                </div>
             </div>
+        </div>
         </header>
     </section>
 
@@ -58,7 +65,70 @@
 
         <section class="projects" id="projects">
             <h3>Projects</h3>
+            
             <div class="firstProject project">
+                <div class="description">
+                    <h4>What's Your Flava?</h4>
+                    <p>Partnered with Amanda Monteiro for our first duo project! When users type a dish name or ingredient in the input, a list of recipes will display on the page. Users can also filter out recipes by country.</p>
+                    <ul class="icons">
+                        <li>
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-sass"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-js"></i>
+                        </li>
+                        <li>
+                            <img src="./sources/jQueryIcon2.png" alt="jQuery icon." class="jQuery">
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="image">
+                    <a href="https://hans-christian.github.io/hansAndAmandaProject4/" target=“_blank”><img src="./sources/project4Image.PNG" alt="My duo project with Amanda Monteiro."></a>
+                </div>
+            </div>
+            
+            <div class="secondProject project">
+                <div class="description">
+                    <h4>Into the Future</h4>
+                    <p>An online journal that allows users to document their daily thoughts and activities. Minimum number of characters is 250 and maximum is 500. Furthermore, users can delete their entries if they no longer need them.</p>
+                    <ul class="icons">
+                        <li>
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-sass"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-react"></i>
+                        </li>
+                        <li>
+                            <img src="./sources/firebaseIcon.png" alt="Firebase icon." class="firebase">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="image">
+                    <a href="https://hans-christian.github.io/hansChristianSeverinoProject5/" target=“_blank”><img src="./sources/project5Image.PNG" alt="My first React project."></a>
+                </div>
+            </div>
+
+            <div class="thirdProject project">
                 <div class="description">
                     <h4>Pump U Up</h4>
                     <p>As someone that enjoys exercising and pushing my physical limits, I know the importance of mixing things up to prevent a plateau. This app allows users to generate a random exercise, provides recommended sets and reps, as well as a link to a video on how to perform it. So, get movin'!</p>
@@ -85,107 +155,45 @@
                 </div>
 
                 <div class="image">
-                    <a href="https://hans-christian.github.io/project3/"><img src="./sources/project3Image.PNG" alt="My first solo project."></a>
-                </div>
-            </div>
-
-            <div class="secondProject project">
-                <div class="description">
-                    <h4>What's Your Flava?</h4>
-                    <p>Partnered with Amanda Monteiro for our first duo project! When users type a dish name or ingredient in the input, a list of recipes will display on the page. Users can also filter out recipes by country.</p>
-                    <ul class="icons">
-                        <li>
-                            <i class="fab fa-html5"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-css3-alt"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-sass"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-js"></i>
-                        </li>
-                        <li>
-                            <img src="./sources/jQueryIcon2.png" alt="jQuery icon." class="jQuery">
-                        </li>
-                        <li>
-                            <i class="fab fa-github"></i>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="image">
-                    <a href="https://hans-christian.github.io/hansAndAmandaProject4/"><img src="./sources/project4Image.PNG" alt="My duo project with Amanda Monteiro."></a>
-                </div>
-            </div>
-
-            <div class="thirdProject project">
-                <div class="description">
-                    <h4>Into the Future</h4>
-                    <p>An online journal that allows users to document their daily thoughts and activities. Minimum number of characters is 250 and maximum is 500. Furthermore, users can delete their entries if they no longer need them.</p>
-                    <ul class="icons">
-                        <li>
-                            <i class="fab fa-html5"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-css3-alt"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-sass"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-github"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-react"></i>
-                        </li>
-                        <li>
-                            <img src="./sources/firebaseIcon.png" alt="Firebase icon." class="firebase">
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="image">
-                    <a href="https://hans-christian.github.io/hansChristianSeverinoProject5/"><img src="./sources/project5Image.PNG" alt="My first React project."></a>
+                    <a href="https://hans-christian.github.io/project3/" target=“_blank”><img src="./sources/project3Image.PNG" alt="My first solo project."></a>
                 </div>
             </div>
         </section>
 
         <section class="skills" id="skills">
             <h3>Skills</h3>
-            <ul class="listOfSkills">
-                <li>
+            <ul class="listOfSkills crawl">
+                <li class="skill">
                     HTML5
                 </li>
-                <li>
+                <li class="skill">
                     CSS3 / Sass
                 </li>
-                <li>
+                <li class="skill">
                     JavaScript
                 </li>
-                <li>
+                <li class="skill">
                     jQuery
                 </li>
-                <li>
+                <li class="skill">
                     React
                 </li>
-                <li>
+                <li class="skill">
                     Firebase
                 </li>
-                <li>
+                <li class="skill">
                     GitHub
                 </li>
-                <li>
+                <li class="skill">
                     REST APIs
                 </li>
-                <li>
+                <li class="skill">
                     Cmder Terminal
                 </li>
-                <li>
+                <li class="skill">
                     Web Accessibility
                 </li>
-                <li>
+                <li class="skill">
                     Responsive Design
                 </li>
             </ul>
@@ -200,24 +208,24 @@
                 <h3>Contact</h3>
                 <ul class="info">
                     <li>
-                        (647) 712-8224
                         <i class="fas fa-mobile-alt"></i>
+                        (647) 712-8224
                     </li>
                     <li>
-                        hansknows.code@gmail.com
                         <i class="fas fa-envelope-open-text"></i>
+                        hansknows.code@gmail.com
                     </li>
                     <li>
-                        <a href="www.linkedin.com/in/hanschristianseverino">linkedin.com/in/hanschristianseverino</a>
                         <i class="fab fa-linkedin"></i>
+                        <a href="www.linkedin.com/in/hanschristianseverino">linkedin.com/in/hanschristianseverino</a>
                     </li>
                     <li>
-                        <a href="https://github.com/Hans-Christian">https://github.com/Hans-Christian</a>
                         <i class="fab fa-github"></i>
+                        <a href="https://github.com/Hans-Christian">https://github.com/Hans-Christian</a>
                     </li>
                     <li class="instagram">
-                        <a href="https://www.instagram.com/hcsev15/?hl=en">hcsev15</a>
                         <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/hcsev15/?hl=en">hcsev15</a>
                     </li>
                 </ul>
             </div>
@@ -226,7 +234,7 @@
 
     <footer>
         <div class="wrapper">
-            <p>&copy <a href="https://github.com/Hans-Christian">Hans Christian Severino</a></p>
+            <p>&copy; <a href="https://github.com/Hans-Christian">Hans Christian Severino</a></p>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

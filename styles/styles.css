@@ -392,7 +392,7 @@ footer {
 }
 
 header {
-  background-image: url("../sources/headerImage.jpg");
+  background-image: url("../sources/smallerHeaderImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -404,7 +404,7 @@ header {
   padding: 2.5rem 3rem;
   top: 20%;
   left: 15%;
-  margin-bottom: 12rem;
+  margin-bottom: 9rem;
 }
 
 .firstName {
@@ -421,17 +421,13 @@ h1 {
   text-decoration: underline;
 }
 
-.headers,
-.headerLinks,
-.menu {
+.headers {
   position: absolute;
 }
 
-.headerLinks {
-  width: 64.5rem;
-  padding: 4rem 0;
-  right: 0;
-  bottom: 30px;
+.headerLinks,
+.menu {
+  position: fixed;
 }
 
 .menu {
@@ -441,6 +437,13 @@ h1 {
 
 .menuClick {
   padding: 1rem 0;
+}
+
+.headerLinks {
+  width: 64.5rem;
+  padding: 2rem 0;
+  right: 0;
+  bottom: 25px;
 }
 
 .aboutMe,
@@ -554,7 +557,31 @@ h4 {
 
 .info .fas,
 .info .fab {
-  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+@-webkit-keyframes Skills {
+  0% {
+    top: 35%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes Skills {
+  0% {
+    top: 35%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.skill {
+  position: relative;
+  -webkit-animation: Skills 5s linear infinite;
+          animation: Skills 5s linear infinite;
 }
 
 footer p {
@@ -728,7 +755,7 @@ footer a:focus {
     font-size: 2.3rem;
     display: block;
     right: 0;
-    bottom: 244px;
+    bottom: 198px;
   }
   .navActive {
     -webkit-transform: translateX(0%);
@@ -758,6 +785,6 @@ footer a:focus {
     font-size: 56%;
   }
   .headerLinks {
-    bottom: 52.1px;
+    bottom: 42px;
   }
 }

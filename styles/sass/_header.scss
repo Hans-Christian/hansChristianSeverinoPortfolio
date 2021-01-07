@@ -1,5 +1,5 @@
 header{
-    background-image: url('../sources/headerImage.jpg');
+    background-image: url('../sources/smallerHeaderImage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@ header{
     padding: 2.5rem 3rem;
     top: 20%;
     left: 15%;
-    margin-bottom: 12rem;
+    margin-bottom: 9rem;
 }
 
 .firstName{
@@ -28,17 +28,13 @@ h1{
     text-decoration: underline;
 }
 
-.headers,
-.headerLinks,
-.menu{
+.headers{
     position: absolute;
 }
 
-.headerLinks{
-    width: 64.5rem;
-    padding: 4rem 0;
-    right: 0;
-    bottom: 30px;
+.headerLinks,
+.menu{
+    position: fixed;
 }
 
 .menu{
@@ -49,3 +45,14 @@ h1{
 .menuClick{
     padding: 1rem 0;
 }
+
+.headerLinks{
+    width: 64.5rem;
+    padding: 2rem 0;
+    right: 0;
+    bottom: 25px;
+}
+
+
+
+

@@ -106,5 +106,20 @@ h4{
 
 .info .fas,
 .info .fab{
-    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+@keyframes Skills{
+    0% {
+        top: 35%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.skill {
+    position: relative;
+    animation: Skills 5s linear infinite;
 }
