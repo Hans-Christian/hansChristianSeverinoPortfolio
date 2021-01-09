@@ -537,6 +537,7 @@ h4 {
   border-radius: 15px;
   width: 60%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .listOfSkills li {
@@ -562,7 +563,7 @@ h4 {
 
 @-webkit-keyframes Skills {
   0% {
-    top: 35%;
+    top: 100%;
   }
   100% {
     top: 0;
@@ -571,17 +572,18 @@ h4 {
 
 @keyframes Skills {
   0% {
-    top: 35%;
+    top: 100%;
   }
   100% {
     top: 0;
   }
 }
 
-.skill {
+.crawl {
   position: relative;
-  -webkit-animation: Skills 5s linear infinite;
-          animation: Skills 5s linear infinite;
+  -webkit-animation: Skills 6s linear infinite;
+          animation: Skills 6s linear infinite;
+  height: 42.6rem;
 }
 
 footer p {

@@ -86,6 +86,7 @@ h4{
     border-radius: 15px;
     width: 60%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .listOfSkills li{
@@ -111,7 +112,7 @@ h4{
 
 @keyframes Skills{
     0% {
-        top: 35%;
+        top: 100%;
     }
 
     100% {
@@ -119,7 +120,8 @@ h4{
     }
 }
 
-.skill {
+.crawl {
     position: relative;
-    animation: Skills 5s linear infinite;
+    animation: Skills 6s linear infinite;
+    height: 42.6rem;
 }
